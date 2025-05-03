@@ -1,11 +1,18 @@
 import logo from './logo.svg';
-
-import Nav from './navbar';
+import PureComponents from './Pure components/example';
+import Project from './Pure components/project';
+// import FunctionalLC from './lifecycle/functioncomponents';
+// import MyComponen from './lifecycle/classcomponents';
+//  import WEithLogger from './HOC/function';
 
 function App() {
   return (
-    <div className="App">
-      <Nav />
+    <div>
+      {/* <FunctionalLC /> */}
+      {/* <MyComponen /> */}
+      {/* <WEithLogger /> */}
+      {/* <PureComponents /> */}
+      <Project />
     </div>
   );
 }
