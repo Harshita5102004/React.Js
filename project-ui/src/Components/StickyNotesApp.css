@@ -1,0 +1,66 @@
+/* StickyNotesApp.css */
+.app {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    font-family: "Segoe UI", sans-serif;
+    text-align: center;
+  }
+  
+  .note-input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  
+  .note-input input {
+    padding: 10px;
+    font-size: 16px;
+    width: 60%;
+  }
+  
+  .note-input button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #008cba;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .note-input button:hover {
+    background-color: #0073a8;
+  }
+  
+  .notes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 15px;
+  }
+  
+  .note {
+    position: relative;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    word-wrap: break-word;
+    min-height: 100px;
+  }
+  
+  .delete-btn {
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .delete-btn:hover {
+    color: red;
+  }
+  
